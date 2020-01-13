@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3056730565</fileChecksum>
+    <configuration>
+        <name>wb55</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Src\rf.c</file>
+            <file>$PROJ_DIR$\startup_stm32wb55xx_cm4.s</file>
+            <file>$PROJ_DIR$\..\Src\Protobuffer\protobuf-c\protobuf-c.c</file>
+            <file>$PROJ_DIR$\..\Src\Protobuffer\simple.pb-c.c</file>
+            <file>$PROJ_DIR$\..\Src\Protobuffer\circular-buffer.cpp</file>
+            <file>$PROJ_DIR$\..\Src\adc.c</file>
+            <file>$PROJ_DIR$\..\Src\app_ble.c</file>
+            <file>$PROJ_DIR$\..\Src\app_entry.c</file>
+            <file>$PROJ_DIR$\..\Src\gpio.c</file>
+            <file>$PROJ_DIR$\..\Src\Protobuffer\hi2st-parser.cpp</file>
+            <file>$PROJ_DIR$\..\Src\Fifo.c</file>
+            <file>$PROJ_DIR$\..\Src\flash_if.c</file>
+            <file>$PROJ_DIR$\..\Src\i2c.c</file>
+            <file>$PROJ_DIR$\..\Src\IR_Trace.c</file>
+            <file>$PROJ_DIR$\..\Src\dma.c</file>
+            <file>$PROJ_DIR$\..\Src\hw_ipcc.c</file>
+            <file>$PROJ_DIR$\..\Src\hw_timerserver.c</file>
+            <file>$PROJ_DIR$\..\Src\p2p_client_app.c</file>
+            <file>$PROJ_DIR$\..\Src\p2p_server_app.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_uart.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\X-NUCLEO-53L0A1.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rtc_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\rtc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\VL53L1X_calibration.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pcd.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_hal_aci.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\system_stm32wbxx.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_uart.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\hci_tl.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_uart_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\simple.pb-c.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\sequencer.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_calibration.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pcd_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tof_vl53l1.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pwr.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\hw_timerserver.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\main_sample.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\p2p_client_app.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_strings.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\rf.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\Motor.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_gap_aci.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hw_ipcc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\LSM6DS3_ACC_GYRO_driver_HL.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Customer.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Sensor.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_flash_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_tim_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_lpm_if.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rcc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_gap_aci.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_strings.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\p2p_server_app.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\svc_ctl.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\protobuf-c.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_seq.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci_tl_if.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\rtc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hi2st-parser.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_it.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\timer.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_exti.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\osal.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_adc_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\app_ble.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_tim.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\app_entry.xcl</file>
+            <file>$PROJ_DIR$\wb55\Exe\wb55(server).bin</file>
+            <file>$PROJ_DIR$\wb55\Obj\filter.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_ranging.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pwr_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\simple.pb-c.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\IR_Trace.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_i2c_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_uart_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\dma.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\p2p_client_app.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Customer.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\UpdateFw.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_exti.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_gpio.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\dbg_trace.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\app_entry.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hw_timerserver.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\MMC3630KJ.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm_queue.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\IR_Trace.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_ll_adc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\LSM6DS3_ACC_GYRO_driver_HL.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_hal_aci.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_i2c_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rtc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rtc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\BSP\timer.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32wbxx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1.c</file>
+            <file>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_gyro.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\BSP\X-NUCLEO-53L0A1\X-NUCLEO-53L0A1.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\BSP\filter.c</file>
+            <file>$PROJ_DIR$\..\BSP\uart_trace.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_hsem.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_accelero.c</file>
+            <file>$PROJ_DIR$\..\BSP\vl53l1\core\VL53L1X_api.c</file>
+            <file>$PROJ_DIR$\..\BSP\vl53l1\platform\vl53l1_platform.c</file>
+            <file>$PROJ_DIR$\..\BSP\X-NUCLEO-53L0A1\vl53l0x_platform.c</file>
+            <file>$PROJ_DIR$\..\Src\rtc.c</file>
+            <file>$PROJ_DIR$\..\BSP\Tof\tof.c</file>
+            <file>$PROJ_DIR$\..\BSP\Motor\Motor.c</file>
+            <file>$PROJ_DIR$\..\Src\usb.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32wbxx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32_lpm_if.c</file>
+            <file>$PROJ_DIR$\..\Src\UpdateFw.c</file>
+            <file>$PROJ_DIR$\..\Src\tim.c</file>
+            <file>$PROJ_DIR$\..\Src\usart.c</file>
+            <file>$PROJ_DIR$\..\Src\Sensor.c</file>
+            <file>$PROJ_DIR$\..\Src\Trace_station.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_ranging.c</file>
+            <file>$PROJ_DIR$\..\BSP\mmc\Customer.c</file>
+            <file>$PROJ_DIR$\..\BSP\mmc\MMC3630KJ.c</file>
+            <file>$PROJ_DIR$\..\BSP\vl53l1\platform\tof_vl53l1.c</file>
+            <file>$PROJ_DIR$\..\Src\sequencer.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_core.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\lsm6ds3\LSM6DS3_ACC_GYRO_driver.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\lsm6ds3\LSM6DS3_ACC_GYRO_driver_HL.c</file>
+            <file>$PROJ_DIR$\..\BSP\vl53l1\core\VL53L1X_calibration.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_calibration.c</file>
+            <file>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_strings.c</file>
+            <file>$PROJ_DIR$\..\BSP\mmc\main_sample.c</file>
+            <file>$PROJ_DIR$\..\Src\tiny_lpm.c</file>
+            <file>$PROJ_DIR$\..\BSP\Motor\encoders.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32wbxx_it.c</file>
+            <file>$PROJ_DIR$\wb55\Obj\i2c.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_adc.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\hci_tl_if.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usb.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\stm_queue.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\shci\shci.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_l2cap_aci.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\shci_tl_if.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\dbg_trace.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\shci_tl.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_gap_aci.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_hci_le.c</file>
+            <file>$PROJ_DIR$\..\Utilities\lpm\tiny_lpm\stm32_lpm.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\stm_list.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\svc\Src\svc_ctl.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\tl_mbox.c</file>
+            <file>$PROJ_DIR$\..\Utilities\sequencer\stm32_seq.c</file>
+            <file>$PROJ_DIR$\wb55\Obj\tl_mbox.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_uart_ex.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_hal_aci.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_gatt_aci.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\hci_tl.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\template\osal.c</file>
+            <file>$PROJ_DIR$\wb55\Obj\usart.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rtc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_l2cap_aci.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\LSM6DS3_ACC_GYRO_driver.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\wb55.pbd</file>
+            <file>$PROJ_DIR$\wb55\Obj\hci_tl.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\Trace_station.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_ll_usb.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_tim.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1_gyro.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rcc_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Fifo.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_gatt_aci.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_lpm.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Trace_station.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\dbg_trace.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_dma_ex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_core.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1_accelero.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_flash.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\hw_ipcc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\protobuf-c.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_i2c_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\svc_ctl.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_adc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1_accelero.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\UpdateFw.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\VL53L1X_api.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\flash_if.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pcd_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\startup_stm32wb55xx_cm4.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hci_tl_if.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\uart_trace.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\rf.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_cortex.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_hci_le.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\timer.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\Fifo.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm_list.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pcd.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\usb.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\LSM6DS3_ACC_GYRO_driver.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_hsem.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_platform.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tof_vl53l1.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tim.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_core.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tiny_lpm.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1_gyro.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\app_ble.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\main.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rtc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\dma.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\system_stm32wbxx.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_l2cap_aci.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\usb.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_ll_adc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci_tl.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_ll_usb.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\VL53L1X_calibration.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\sequencer.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\tof.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l1_platform.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\osal.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\tiny_lpm.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\main_sample.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\filter.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Motor.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_calibration.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\uart_trace.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_lpm_if.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_adc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_hci_le.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hi2st-parser.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\adc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm_queue.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\circular-buffer.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_dma.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\MMC3630KJ.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\p2p_server_app.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\wb55\Exe\wb55.out</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\encoders.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\adc.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm_list.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\i2c.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\Sensor.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tl_mbox.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rtc_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\circular-buffer.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\flash_if.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\VL53L1X_api.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_lpm.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\tim.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_platform.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_it.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_flash.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_dma_ex.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\usart.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\tof.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\X-NUCLEO-53L0A1.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_msp.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\encoders.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_hsem.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\hci_tl_if.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci_tl_if.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_i2c.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l0x_api_ranging.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\ble_gatt_aci.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\vl53l1_platform.xcl</file>
+            <file>$PROJ_DIR$\wb55\Obj\shci_tl.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_dma.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\x_nucleo_iks01a1.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32_seq.o</file>
+            <file>$PROJ_DIR$\wb55\Obj\stm32wbxx_hal_msp.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 274</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\rf.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32wb55xx_cm4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Protobuffer\protobuf-c\protobuf-c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Protobuffer\simple.pb-c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Protobuffer\circular-buffer.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 283</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 277</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\app_ble.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\app_entry.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Protobuffer\hi2st-parser.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\flash_if.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 285</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\IR_Trace.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\hw_ipcc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\hw_timerserver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\p2p_client_app.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\p2p_server_app.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 272</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 249</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_i2c_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 292</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rtc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 282</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32wbxx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 270</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 307</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 308</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_gyro.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\X-NUCLEO-53L0A1\X-NUCLEO-53L0A1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 295</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 291</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pcd.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\filter.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\uart_trace.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_hsem.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 298</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 301</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 303</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_accelero.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\vl53l1\core\VL53L1X_api.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\vl53l1\platform\vl53l1_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 305</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\X-NUCLEO-53L0A1\vl53l0x_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 289</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Tof\tof.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 294</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Motor\Motor.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usb.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32wbxx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 296</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 310</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32_lpm_if.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\UpdateFw.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\tim.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 288</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 280</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Trace_station.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_ranging.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 302</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\mmc\Customer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\mmc\MMC3630KJ.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\vl53l1\platform\tof_vl53l1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\sequencer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 251</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_core.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\lsm6ds3\LSM6DS3_ACC_GYRO_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\lsm6ds3\LSM6DS3_ACC_GYRO_driver_HL.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\vl53l1\core\VL53L1X_calibration.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_calibration.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Components\vl53l0x\vl53l0x_api_strings.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\mmc\main_sample.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\tiny_lpm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\Motor\encoders.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 297</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32wbxx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\hci_tl_if.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 299</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_usb.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\stm_queue.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 268</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\shci\shci.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_l2cap_aci.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\shci_tl_if.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 300</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\dbg_trace.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\shci_tl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 306</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_gap_aci.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_hci_le.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 265</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Utilities\lpm\tiny_lpm\stm32_lpm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 287</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\utilities\stm_list.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\svc\Src\svc_ctl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\tl_mbox.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 281</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Utilities\sequencer\stm32_seq.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 309</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_uart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_hal_aci.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\auto\ble_gatt_aci.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 304</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\interface\patterns\ble_thread\tl\hci_tl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\ST\STM32_WPAN\ble\core\template\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\wb55\Exe\wb55.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

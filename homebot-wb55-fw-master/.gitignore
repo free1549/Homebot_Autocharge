@@ -1,0 +1,8 @@
+*.o
+*.xcl
+*.pbi
+**/List/**
+**/Exe/**
+**/Obj/**
+tags
+/**/cscope.out

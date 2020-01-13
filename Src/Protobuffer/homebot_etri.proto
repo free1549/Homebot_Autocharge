@@ -1,0 +1,224 @@
+syntax = "proto2";
+
+message FirmwareUpdate { // NO ETRI
+    optional bytes data = 2;
+    optional uint32 verify = 3;
+    optional uint32 start = 4;
+    optional uint32 end = 5;
+    optional uint32 start_offset = 6;
+    optional uint32 end_offset = 7;
+}
+
+message FirmwareUpdateFeedback { // NO ETRI
+    optional uint32 data = 2;
+    optional uint32 verify = 3;
+    optional uint32 start = 4;
+    optional uint32 end = 5;
+    optional uint32 crc = 6;
+}
+
+message BandwidthTest { // NO ETRI
+    optional bytes data = 1;
+    optional uint32 step = 2; // 처음=1, 중간=2, 마지막=3 optional uint32
+    optional uint32 bandwidth_by_hi = 3;
+}
+
+message RspServiceKey { // NO ETRI
+    optional string service_key = 1;
+    optional string mac_address = 2;
+    optional string model_name = 3;
+    optional string serial_number = 4;
+}
+
+message Ap {
+    optional string ssid = 1;
+    optional string ssid_type = 2;
+}
+
+message SensorData {
+    optional string sensor_mac_address = 1;
+    optional uint32 sensor_type = 2;
+    optional float sensor_temperature = 3;
+    optional float sensor_humidity = 4;
+    optional uint32 eco2_ppm = 5;
+    optional uint32 tvoc_ppb = 6;
+    optional bool hall_state = 7;
+    optional bool hall_interrupt = 8;
+    optional bool pir_interrupt = 9;
+    optional uint32 sensor_voltage = 10; 
+}
+
+message SensorSet {
+    optional string sensor_mac_address = 1;
+    optional uint32 sensor_type = 2;
+    optional bool interrupt_alarm = 3;
+    optional uint32 notify_period = 4;
+    optional bool period_alarm = 5;
+    optional uint32 upper_threshold = 6;
+    optional uint32 lower_threshold = 7;
+}
+
+message PwmLed {
+    optional uint32 pwm = 1;
+    optional uint32 duty = 2;
+    optional uint32 period = 3;
+    optional uint32 enable = 4;
+}
+
+enum StInfo {
+    STATUS = 1;
+    TOF = 2;
+    ACC = 4;
+    GYRO = 8;
+    IMU = 16; 
+    HOP = 32; 
+    MOTOR = 64; 
+    ENC = 128;
+    BATTERY = 256;
+}
+
+message ToSt {
+    // {{{{{{{{{{{{{{{{{{{ from HI begin
+    optional int32 l_speed = 1; // -350 ~ 350
+    optional int32 r_speed = 2; // -350 ~ 350
+    optional uint32 neck_speed = 3; // -350 ~ 350
+    optional uint32 do_charge = 4;
+
+    optional uint32 request_st_info = 100; // st 에게 요청하는 정보, StInfo bitwise 연산
+
+    optional SensorSet sensor_set = 200;
+
+    optional uint32 test_1  = 801;
+    optional uint32 test_2  = 802;
+    optional uint32 test_3  = 803;
+    optional uint32 test_4  = 804;
+    optional uint32 test_5  = 805;
+    optional uint32 test_6  = 806;
+    optional uint32 test_7  = 807;
+    optional uint32 test_8  = 808;
+    optional uint32 test_9  = 809;
+    optional uint32 test_10 = 810;
+    // from HI }}}}}}}}}}}}}}}}}}} 
+
+    // {{{{{{{{{{{{{{{{{ NO ETRI
+    optional bytes loopback = 10000;
+    optional FirmwareUpdate stm_update = 10001;
+    optional ToHost tohost_bypass = 10002;
+    optional ToHi tohi_bypass = 10003;
+    // }}}}}}}}}}}}}}}}} NO ETRI
+}
+
+message ToHi {
+    optional ToHost tohost_bypass = 1000;
+    optional ToSt tost_bypass = 1001;
+
+    // {{{{{{{{{{{{{{{{{{{ from ST
+    optional uint32 tof = 1;
+    optional float accx = 2;
+    optional float accy = 3;
+    optional float accz = 4;
+    optional float gyro_x = 5;
+    optional float gyro_y = 6;
+    optional float gyro_z = 7;
+    optional float yaw = 8;     //rad
+    optional float pitch = 9;   //rad
+    optional float roll = 10;    //rad
+    optional float battery = 11; // voltage
+    optional int32 lenc = 12; //left motor rpm
+    optional int32 renc = 13; //right motor rpm
+    optional bool power_button_pressed = 14; 
+    optional bool usb_con = 15; 
+    // from ST }}}}}}}}}}}}}}}}}}} 
+
+    // {{{{{{{{{{{{{{{{{{{ from host
+    optional string phone_public_key = 100;
+    optional uint32 do_charge        = 101;
+    optional uint32 video_seq        = 102;
+    optional int32 set_mute = 103;
+    optional bytes audio = 104;
+    optional uint32 set_ir_cut1      = 105;
+    optional uint32 set_ir_cut2      = 106;
+    // from host }}}}}}}}}}}}}}}}}}} 
+
+    // {{{{{{{{{{{{{{{{{{{ from everyone
+    optional PwmLed pwm_led = 300;
+    // from everyone }}}}}}}}}}}}}}}}}}}
+
+    optional uint32 test_1  = 801;
+    optional uint32 test_2  = 802;
+    optional uint32 test_3  = 803;
+    optional uint32 test_4  = 804;
+    optional uint32 test_5  = 805;
+    optional uint32 test_6  = 806;
+    optional uint32 test_7  = 807;
+    optional uint32 test_8  = 808;
+    optional uint32 test_9  = 809;
+    optional uint32 test_10 = 810;
+
+
+    // {{{{{{{{{{{{{{{{{ NO ETRI
+    optional uint32 request_mic_loop_back = 10001;
+    optional int32 set_mic_vol = 10002;
+    optional uint32 set_speaker_vol = 10003;
+    optional int32 play_pcm = 10004;
+    optional uint32 qc_retry = 10005;
+
+    optional uint32 req_scan_ap = 10007; // HI 주변 AP 검색하라고 명령
+    optional string ssid = 10008;
+    optional string ssid_password = 10009;
+    optional string ssid_type = 10010;
+    message ConnectServer {
+        required string user_id = 1;
+        required uint32 gmt = 2;
+    }   
+    optional ConnectServer connect_server = 10011;
+    optional FirmwareUpdateFeedback firmware_update_feedback = 10012;
+    optional int32 max_exposure = 10013;
+    optional int32 min_exposure = 10014;
+    optional uint32 req_service_key = 10015;
+    // }}}}}}}}}}}}}}}}} NO ETRI
+}
+// ToHi close
+
+message ToHost {
+    // {{{{{{{{{{{{{{{{{{{ from HI
+    optional bytes video = 1; // host 가 재생할 비디오
+    optional bytes audio = 2; // host 가 재생할 오디오
+    // from HI }}}}}}}}}}}}}}}}}}} 
+
+    // {{{{{{{{{{{{{{{{{{{ from Sensor WB55
+    optional SensorData sensor_data = 62; 
+    // from Sensor WB55 }}}}}}}}}}}}}}}}}}}
+
+    optional uint32 test_1  = 801;
+    optional uint32 test_2  = 802;
+    optional uint32 test_3  = 803;
+    optional uint32 test_4  = 804;
+    optional uint32 test_5  = 805;
+    optional uint32 test_6  = 806;
+    optional uint32 test_7  = 807;
+    optional uint32 test_8  = 808;
+    optional uint32 test_9  = 809;
+    optional uint32 test_10 = 810;
+
+    // {{{{{{{{{{{{{{{{{ NO ETRI
+    optional bool signal_server_setup = 10000;
+    optional bool room_server_setup = 10001;
+    optional bool auth_server_setup = 10002;
+    optional string debugging_info = 10003;
+    optional bytes encrypted_secret_key = 10004;
+    optional uint64 pts = 10005;
+    optional uint32 video_seq = 10006;
+    optional uint32 video_ts = 10007;
+    optional uint32 latency = 10008;
+    optional uint32 bitrate = 10009;
+    optional int32 signal_level = 10010;
+    optional bool play_pcm_end = 10011;
+    optional int32 ap_connection_result = 10012;
+    optional uint32 request_start_qc = 10013;
+    optional uint32 request_bandwidth = 10014;
+    optional RspServiceKey rsp_service_key = 10015;
+    repeated Ap ap_list = 10016;
+    // }}}}}}}}}}}}}}}}} NO ETRI
+
+}
